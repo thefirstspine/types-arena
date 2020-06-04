@@ -22,6 +22,7 @@ export * from './game-interaction-move-card-on-board-possibility.interface';
 export * from './game-interaction-move-card-on-board.interface';
 export * from './game-interaction-move-card-to-discard.interface';
 export * from './game-interaction-pass.interface';
+export * from './game-interaction-put-card-on-board.interface';
 export * from './game-interaction-select-couple-on-board.interface';
 export * from './game-interaction.interface';
 export * from './game-interface-chose-card-in-hand.interface';

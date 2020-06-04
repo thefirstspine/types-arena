@@ -1,6 +1,6 @@
-import { IInteraction } from "./game-interaction.interface";
+import { IGameInteraction } from "./game-interaction.interface";
 
-export interface IInteractionMoveCardToDiscard extends IInteraction {
+export interface IInteractionMoveCardToDiscard extends IGameInteraction {
   type: 'moveCardsToDiscard';
   params: {
     min: number,

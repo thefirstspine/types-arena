@@ -1,7 +1,7 @@
-import { IInteraction } from "./game-interaction.interface";
+import { IGameInteraction } from "./game-interaction.interface";
 import { IInteractionMoveCardOnBoardPossibility } from "./game-interaction-move-card-on-board-possibility.interface";
 
-export interface IInteractionMoveCardOnBoard extends IInteraction {
+export interface IInteractionMoveCardOnBoard extends IGameInteraction {
   type: 'moveCardOnBoard';
   params: {
     possibilities: IInteractionMoveCardOnBoardPossibility[],

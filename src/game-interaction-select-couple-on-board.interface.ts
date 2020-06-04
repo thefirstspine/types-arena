@@ -1,7 +1,7 @@
 import { IInteractionMoveCardOnBoardPossibility } from "./game-interaction-move-card-on-board-possibility.interface";
-import { IInteraction } from "./game-interaction.interface";
+import { IGameInteraction } from "./game-interaction.interface";
 
-export interface IInteractionSelectCoupleOnBoard extends IInteraction {
+export interface IInteractionSelectCoupleOnBoard extends IGameInteraction {
   type: 'selectCoupleOnBoard';
   params: {
     possibilities: IInteractionMoveCardOnBoardPossibility[],

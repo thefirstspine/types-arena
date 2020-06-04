@@ -1,6 +1,6 @@
-import { IInteraction } from "./game-interaction.interface";
+import { IGameInteraction } from "./game-interaction.interface";
 
-export interface IInteractionPass extends IInteraction {
+export interface IInteractionPass extends IGameInteraction {
   type: 'pass';
   params: {
   };

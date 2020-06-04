@@ -1,6 +1,6 @@
-import { IInteraction } from "./game-interaction.interface";
+import { IGameInteraction } from "./game-interaction.interface";
 
-export interface IInteractionChoseCardOnBoard extends IInteraction {
+export interface IInteractionChoseCardOnBoard extends IGameInteraction {
   type: 'choseCardOnBoard';
   params: {
     boardCoords: string[],

@@ -1,5 +1,5 @@
 import { ILocalized } from "@thefirstspine/types-rest";
 
-export interface IInteraction {
+export interface IGameInteraction {
   description: ILocalized;
 }

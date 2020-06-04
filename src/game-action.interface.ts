@@ -1,7 +1,7 @@
 import { ILocalized } from '@thefirstspine/types-rest';
-import { IInteraction } from './game-interaction.interface';
+import { IGameInteraction } from './game-interaction.interface';
 
-export interface IGameAction<T extends IInteraction> {
+export interface IGameAction<T extends IGameInteraction> {
   type: string;
   name: ILocalized;
   description: ILocalized;

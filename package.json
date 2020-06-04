@@ -1,6 +1,6 @@
 {
   "name": "@thefirstspine/types-arena",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Types definition for Arena resources.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -23,15 +23,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thefirstspine/dependency-auth.git"
+    "url": "git+https://github.com/thefirstspine/types-arena.git"
   },
   "author": "Teddy Gandon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thefirstspine/dependency-auth/issues"
+    "url": "https://github.com/thefirstspine/types-arena/issues"
   },
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/thefirstspine/dependency-auth#readme"
+  "homepage": "https://github.com/thefirstspine/types-arena#readme"
 }
