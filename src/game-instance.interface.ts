@@ -7,7 +7,7 @@ import { IGameResult } from "./game-result.interface";
 
 export interface IGameInstance {
   id: number;
-  status: 'active'|'ended'|'closed';
+  status: 'active'|'ended'|'closed'|'conceded';
   users: IGameUser[];
   gameTypeId: string;
   cards: IGameCard[];
