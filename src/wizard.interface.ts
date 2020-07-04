@@ -3,7 +3,7 @@ import { IWizardHistoryItem } from "./wizard-history-item.interface";
 
 export interface IWizard {
   id: number;
-  version: 0.6;
+  version: 0.7;
   name: string;
   items: IWizardItem[];
   history: IWizardHistoryItem[];
@@ -11,4 +11,5 @@ export interface IWizard {
   avatar: string;
   title: string;
   triumphs: string[];
+  friends: number[];
 }
