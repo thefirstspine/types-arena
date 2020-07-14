@@ -1,3 +1,3 @@
 export interface IApiRefreshQueueAskParams {
-  gameType: string;
+  key: string;
 }

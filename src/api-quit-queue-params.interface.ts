@@ -1,3 +1,3 @@
 export interface IApiQuitQueueParams {
-  gameType: string;
+  key: string;
 }

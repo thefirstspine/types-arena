@@ -1,5 +1,5 @@
 export interface IApiJoinQueueParams {
-  gameType: string;
+  key: string;
   destiny: string;
   origin?: string;
   style?: string;
