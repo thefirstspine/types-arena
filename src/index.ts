@@ -3,6 +3,7 @@
  * Add statements like: export * from './path/to/file';
  */
 
+export * from './api-create-queue-params.interface';
 export * from './api-get-game-response.interface';
 export * from './api-get-users-game-response.interface';
 export * from './api-join-queue-params.interface';
