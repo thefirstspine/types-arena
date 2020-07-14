@@ -5,6 +5,7 @@
 
 export * from './api-create-queue-params.interface';
 export * from './api-get-game-response.interface';
+export * from './api-get-queue-params.interface';
 export * from './api-get-users-game-response.interface';
 export * from './api-join-queue-params.interface';
 export * from './api-queue-response.interface';

@@ -3,6 +3,7 @@ import { IApiQuitQueueParams } from "./api-quit-queue-params.interface";
 import { IApiRefreshQueueAskParams } from "./api-refresh-queue-ask-params.interface";
 import { IApiRespondToActionParams } from "./api-respond-to-action-params.interface";
 import { IApiCreateQueueParams } from "./api-create-queue-params.interface";
+import { IApiGetQueueParams } from "./api-get-queue-params.interface";
 
 export function isJoinQueueParams(toBeDetermined: any): toBeDetermined is IApiJoinQueueParams {
   return toBeDetermined.key && toBeDetermined.destiny;
@@ -22,4 +23,8 @@ export function isRespondToActionParams(toBeDetermined: any): toBeDetermined is 
 
 export function isCreateQueueParams(toBeDetermined: any): toBeDetermined is IApiCreateQueueParams {
   return toBeDetermined.gameTypeId;
+}
+
+export function isGetQueueParams(toBeDetermined: any): toBeDetermined is IApiGetQueueParams {
+  return toBeDetermined.key;
 }
