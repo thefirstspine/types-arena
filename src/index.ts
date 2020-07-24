@@ -30,6 +30,8 @@ export * from './game-interaction.interface';
 export * from './game-interface-chose-card-in-hand.interface';
 export * from './game-result.interface';
 export * from './game-user.interface';
+export * from './queue-instance.interface';
+export * from './queue-user.interface';
 export * from './types-guards';
 export * from './wizard-history-item.interface';
 export * from './wizard-item.interface';
