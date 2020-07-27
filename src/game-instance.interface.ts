@@ -9,7 +9,7 @@ export interface IGameInstance {
   id: number;
   status: 'active'|'ended'|'closed'|'conceded';
   theme: string;
-  modifiers: [];
+  modifiers: string[];
   users: IGameUser[];
   gameTypeId: string;
   cards: IGameCard[];
