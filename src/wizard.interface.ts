@@ -1,5 +1,7 @@
 import { IWizardItem } from "./wizard-item.interface";
 import { IWizardHistoryItem } from "./wizard-history-item.interface";
+import { IQuest } from "@thefirstspine/types-rest";
+import { IUserQuest } from "./user-quest.interface";
 
 /**
  * The wizard account of a player.
@@ -60,4 +62,14 @@ export interface IWizard {
    * The public room the player joined.
    */
   publicRoom: null|'fr'|'en';
+
+  /**
+   * An history of the quests taken by the player.
+   */
+  quests: IQuest[];
+
+  /**
+   * The current quests taken by the player.
+   */
+  questsProgress: IUserQuest[];
 }
