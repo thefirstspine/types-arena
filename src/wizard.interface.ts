@@ -1,6 +1,5 @@
 import { IWizardItem } from "./wizard-item.interface";
 import { IWizardHistoryItem } from "./wizard-history-item.interface";
-import { IQuest } from "@thefirstspine/types-rest";
 import { IUserQuest } from "./user-quest.interface";
 
 /**
@@ -66,7 +65,7 @@ export interface IWizard {
   /**
    * An history of the quests taken by the player.
    */
-  quests: IQuest[];
+  quests: string[];
 
   /**
    * The current quests taken by the player.
