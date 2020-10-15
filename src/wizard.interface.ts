@@ -15,7 +15,7 @@ export interface IWizard {
   /**
    * The version of the wizard file.
    */
-  version: 0.8;
+  version: 1.0;
 
   /**
    * Chosen name of the wizard. Can be changed at any time.
