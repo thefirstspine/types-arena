@@ -10,7 +10,7 @@ export interface IGameInstance {
   status: 'active'|'ended'|'closed'|'conceded';
   theme: string;
   modifiers: string[];
-  expirationTimeModifier: number;
+  expirationTimeModifier?: number;
   users: IGameUser[];
   gameTypeId: string;
   cards: IGameCard[];
