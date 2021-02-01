@@ -33,6 +33,12 @@ export interface IQueueInstance {
   modifiers?: string[];
 
   /**
+   * The speed of the instances created from the queue.
+   * Lower value means quicker expiration times.
+   */
+  expirationTimeModifier?: number;
+
+  /**
    * Creation date.
    */
   createdAt: number;
