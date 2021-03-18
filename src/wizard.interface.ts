@@ -58,11 +58,6 @@ export interface IWizard {
   friends: number[];
 
   /**
-   * The public room the player joined.
-   */
-  publicRoom: null|'fr'|'en';
-
-  /**
    * An history of the quests taken by the player.
    */
   quests: string[];
