@@ -19,4 +19,5 @@ export interface IGameInstance {
     previous: IGameActionPassed<IGameInteraction>[],
   };
   result?: IGameResult[];
+  realm?: string;
 }
